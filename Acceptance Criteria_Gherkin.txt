@@ -1,0 +1,18 @@
+Gherkin Syntax:
+
+For the given DAta
+
+Registration Number: OV12UYY
+URL: https://covercheck.vwfsinsuranceportal.co.uk/
+
+
+
+Feature: FindvehicleFeature
+
+Scenario :Enter with given correct vehicle Registration Number 
+Given I navigate to the Dealer portal page
+And I enter the Valid Registration number 
+And I click Find Vehicle Button
+Then I should see Result for the Given Registration number
+
+
